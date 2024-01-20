@@ -104,7 +104,7 @@ const AllProduct = () => {
           <h4 className="collections2022">
             {" "}
             <span className="d-none d-md-flex">
-              Furniture Collection Zoon 2023
+              Clothes Collection Zone 2024
             </span>{" "}
           </h4>
           <form className="d-flex w-md-25 ">
@@ -121,7 +121,7 @@ const AllProduct = () => {
         </div>
         <div className="d-flex justify-content-center ">
           <marquee className="marquees pt-1" direction="left">
-            This Year 2023 Our Shop All products{" "}
+            This Year 2024 Our Shop All products{" "}
             <span className="text-primary">10% Discount</span> &{" "}
             <span className="text-warning"> 30% Cash Back</span>. Our shop Buy
             products from.

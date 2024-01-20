@@ -99,7 +99,7 @@ const NewFurnitureAdd = () => {
             </label> */}
             <div class="mb-3">
               <label htmlFor="disabledTextInput" class="For-label">
-                Saree,Panjabi,couple,kurti,shawl,Hijab
+                saree,panjabi,couple,kurti,shawl,hijab
               </label>
               <input
                 type="text"

@@ -166,7 +166,7 @@ const DetailsProduct = () => {
 
         <div className="d-flex justify-content-center ">
           <marquee className="marquee" direction="left">
-            This Year 2023 Our Shop All products{" "}
+            This Year 2024 Our Shop All products{" "}
             <span className="text-warning">10% Discount</span> &{" "}
             <span className="text-warning"> 30% Cash Back</span>. Our shop Buy
             products from.

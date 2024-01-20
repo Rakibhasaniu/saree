@@ -1,12 +1,13 @@
 import React from "react";
 import "./CervicesCategory.css";
-import Bad from "../../../Assent/Background Image/Bad.jpg";
-import Sofa from "../../../Assent/Background Image/Shofa.jpg";
+import Bad from "../../../Assent/Background Image/orna.jpg";
+import Sofa from "../../../Assent/Background Image/kurti.jpg";
 import image3 from "../../../Assent/img/asset 6.jpeg";
-import Gamming from "../../../Assent/Background Image/Gamming room.jpg";
-import Dyning from "../../../Assent/Background Image/Dynign Table.jpg";
-import Almary from "../../../Assent/Background Image/almary.jpg";
-import Dolpon from "../../../Assent/Background Image/Dolpon.jpg";
+import Gamming from "../../../Assent/Background Image/saree.jpg";
+import Dyning from "../../../Assent/Background Image/couple.jpg";
+import Almary from "../../../Assent/Background Image/shawl.jpg";
+import Dolpon from "../../../Assent/Background Image/pan.jpg";
+// import Dolpon from "../../../Assent/Background Image/";
 import Home1 from "../../../Assent/Background Image/Home1.gif";
 import Home2 from "../../../Assent/Background Image/Home2.gif";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
@@ -20,7 +21,7 @@ const ServicesCategory = () => {
     <>
       {/* ========================Cetagory base Furniture ==================== */}
       <div className="scetion py-4">
-        <h1 className="text-center Larg_Text py-2">Cetagorys products</h1>
+        <h1 className="text-center Larg_Text py-2">Cetegori products</h1>
         <h6 className="text-center Small_Text px-5 pb-4">
           Classic Saree, Kurti and Panjabi collections. <br />
           Proudly designed htmlFor everyday living.
@@ -58,7 +59,7 @@ const ServicesCategory = () => {
               <div className="row container-fluid d-flex justify-content-center pl-5 w-full mx-auto">
                 <div className="col-lg-4 col-md-6 col-12 mb-4">
                   <div className="d-block me-1">
-                    <img className="productImg" src={Bad} alt="" />
+                    <img className="productImg" src={Gamming} alt="" />
                     <div className="d-flex justify-content-between mt-2 mx-1">
                       <h5 id="responsiveText" className="product_name  ">
                         Saree Collections
@@ -74,13 +75,13 @@ const ServicesCategory = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 mb-4">
                   <div className="d-block me-1">
-                    <img className="productImg" src={Sofa} alt="" />
+                    <img className="productImg" src={Dolpon} alt="" />
                     <div className="d-flex justify-content-between mt-2 mx-1">
                       <h5 id="responsiveText" className="product_name ">
                         Panjabi Collections
                       </h5>
                       <Link
-                        to={"/cetagory-data/sofa"}
+                        to={"/cetagory-data/panjabi"}
                         className="product_details"
                       >
                         Details
@@ -90,13 +91,13 @@ const ServicesCategory = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 mb-4">
                   <div className="d-block me-1">
-                    <img className="productImg" src={Gamming} alt="" />
+                    <img className="productImg" src={Almary} alt="" />
                     <div className="d-flex justify-content-between mt-2 mx-1">
                       <h5 id="responsiveText" className="product_name ">
                         Shawl Collections
                       </h5>
                       <Link
-                        to={"/cetagory-data/gaming"}
+                        to={"/cetagory-data/shawl"}
                         className="product_details"
                       >
                         Details
@@ -116,7 +117,7 @@ const ServicesCategory = () => {
                         Couple Set Collections
                       </h5>
                       <Link
-                        to={"/cetagory-data/dining"}
+                        to={"/cetagory-data/couple"}
                         className="product_details"
                       >
                         Details
@@ -126,13 +127,13 @@ const ServicesCategory = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 mb-4">
                   <div className="d-block me-1">
-                    <img className="productImg" src={Almary} alt="" />
+                    <img className="productImg" src={Bad} alt="" />
                     <div className="d-flex justify-content-between mt-2 mx-1">
                       <h5 id="responsiveText" className="product_name ">
                         Hijab Collections
                       </h5>
                       <Link
-                        to={"/cetagory-data/almary"}
+                        to={"/cetagory-data/hijab"}
                         className="product_details"
                       >
                         Details
@@ -142,13 +143,13 @@ const ServicesCategory = () => {
                 </div>
                 <div className="col-lg-4 col-md-6 col-12 mb-4">
                   <div className="d-block me-1">
-                    <img className="productImg" src={Dolpon} alt="" />
+                    <img className="productImg" src={Sofa} alt="" />
                     <div className="d-flex justify-content-between mt-2 mx-1">
                       <h5 id="responsiveText" className="product_name ">
                         Kurti Collections
                       </h5>
                       <Link
-                        to={"/cetagory-data/mirror"}
+                        to={"/cetagory-data/kurti"}
                         className="product_details"
                       >
                         Details
@@ -344,7 +345,7 @@ const ServicesCategory = () => {
         className="my-4"
       >
         <h1 className="text-center Larg_Text pt-2">
-          Any Inforation Collection Our Clothing Zone
+          Any Information Collection Our Clothing Zone
         </h1>
         <h6 className="text-center Small_Text px-5 pb-4">
           Please Write This From Message Field. <br></br> What's your Problem ?

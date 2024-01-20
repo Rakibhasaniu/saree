@@ -10,7 +10,7 @@ const MessageForm = () => {
         className="my-4"
       >
         <h1 className="text-center Larg_Text pt-2">
-          Any InForation Collection Our Furniture Zone
+          Any InForation Collection Our Clothes Zone
         </h1>
         <h6 className="text-center Small_Text px-5 pb-4">
           Please Write This From Message Field. <br></br> What's your Problem ?
@@ -80,7 +80,7 @@ const MessageForm = () => {
                     type="submit"
                     className="w-100 mx-auto py-2 btn btn-primary"
                   >
-                    Submite
+                    Submit
                   </button>
                 </div>
               </div>

@@ -43,10 +43,10 @@ const UpcomingProduct = () => {
           <marquee className="marquees pt-1" direction="left">
             <h5>
               {" "}
-              This Year 2023 Our Shop UpComing{" "}
-              <span className="text-primary">Furniture Collections</span> &{" "}
+              This Year 2024 Our Shop UpComing{" "}
+              <span className="text-primary">ClothesCollections</span> &{" "}
               <span className="text-warning"> Best Discount </span> Offer
-              <span className="text-danger"> Our Happy Customar ❤❤</span> .
+              <span className="text-danger"> Our Happy Customer ❤❤</span> .
             </h5>
           </marquee>
         </div>

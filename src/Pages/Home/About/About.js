@@ -17,7 +17,7 @@ const About = () => {
           </div>
           <div className="col-lg-7 d-flex justify-content-center align-items-center">
             <div className="Mdabout">
-              <h1 className=" Larg_Text py-0">About MD</h1>
+              <h1 className=" Larg_Text py-0">About Miss</h1>
               <h6 className="Small_Text pb-1 fs-5">Mst. Samanta Mostafiz</h6>
               <p>
                 Hi, As you already know my name is Samanta.I am a student of the
